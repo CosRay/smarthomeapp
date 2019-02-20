@@ -8,10 +8,8 @@ RESOURCES += qml.qrc
 
 TARGET = smarthomeapp
 
-#Additional import path used to resolve QML modules in Qt Creator's code model
-
-# Default rules for deployment.
-qnx: target.path = /tmp/smarthome/bin
-else: unix:!android: target.path = /opt/smarthome/bin
+#Default rules for deployment.
+qnx: target.path = /tmp/qtappthree/bin
+else: unix:!android: target.path = /opt/qtappthree/bin
 !isEmpty(target.path): INSTALLS += target
 
