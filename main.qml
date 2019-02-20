@@ -50,8 +50,4 @@ ApplicationWindow {
             text: qsTr("Security")
         }
     }
-
-    SideBar {
-        id: sideBar
-    }
 }

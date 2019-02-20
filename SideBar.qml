@@ -3,7 +3,7 @@ import QtQuick.Controls 2.2
 
 SideBarForm {
 
-    comboBox.model: ["Normal", "Vacation", "Party", "Test"]
+ /*   comboBox.model: ["Normal", "Vacation", "Party", "Test"]
 
     button1.onClicked: {
         dialog.open()
@@ -18,4 +18,6 @@ SideBarForm {
             dialog.open();
         }
     }
+*/
+
 }
