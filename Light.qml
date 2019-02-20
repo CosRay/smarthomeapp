@@ -1,4 +1,4 @@
-import QtQuick 2.999999999
+import QtQuick 2.9
 
 LightForm {
 }
